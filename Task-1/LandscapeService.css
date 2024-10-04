@@ -1,0 +1,482 @@
+body{
+
+    padding: 0px;
+    margin: 0px;
+    background-image: url(./IMG/intro-bg.jpg);
+    font-family: inherit;
+    
+}
+
+nav{
+    
+    background-color: rgb(59, 59, 59);
+    margin: 0;
+}
+#nav-cont{
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    margin-top: 0%;
+
+}
+
+#home > nav> #nav-cont >li{
+
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    margin-left: 3rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+
+}
+
+#home > nav> #nav-cont >li>h2{
+
+    margin-right: 20rem;
+  
+}
+#main{
+
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+#main > h1{
+
+    font-size: 4rem;
+    font-weight: 900;
+    margin-top: 15rem;
+    margin-bottom: 1rem;
+    letter-spacing: -1px
+    
+}
+#main > p{
+
+    color: white;
+    font-size: 1.5rem;
+}
+#main > button{
+    
+    background-color: #6aa80f;
+    padding: 15px 32px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 7rem;
+
+}
+
+
+/* ---------------------------------Welcome to landscaper---------------------------------------- */
+
+#Welcome{
+    padding: 2rem;
+    display: flex;
+    justify-content: right;
+    background-color: white;
+}
+
+#Welcome >#wel-txt{
+
+    width: 48%;
+    margin-right: 2rem;
+}
+
+#Welcome >#wel-txt > hr{
+
+
+    width: 20%;
+    margin-left: 0;
+    background-color:  #6aa80f;
+    height: 2px;
+}
+
+#Welcome >#wel-txt>h1{
+
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+
+}
+#Welcome >#wel-txt>p{
+    color: rgba(149, 148, 148, 0.966);
+    font-size: 1.2rem;
+    margin-top: 3rem;
+}
+
+#Welcome >#wel-txt >button
+{
+
+    background-color:  #6aa80f;
+    border: none;
+    border-radius: 5px;
+    padding: 16px 35px;
+    color: white;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+
+#Welcome > #wel-img{
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    padding-right: 0%;
+    margin-top: 3.5rem;
+
+}
+#Welcome > #wel-img >div{
+    width: 54%;
+    
+    margin-right: 1.5rem;
+
+}
+
+#Welcome > #wel-img >div >img{
+    width: 100%;
+}
+
+#Welcome > #wel-img >div >h2{
+
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+#Welcome > #wel-img >div >p{
+
+    font-size: 1.2rem;
+    color: rgb(149, 148, 148, 0.966);
+}
+
+
+/* -------------------------------------------Service Section--------------------------------------- */
+
+
+#service{
+
+    background-color: #6aa80f;
+    padding-top: 3rem;
+}
+#service > h1{
+
+    font-size: 2.4rem;
+    font-weight: 900;
+    color: white;
+    margin: auto;
+    text-align: center;
+    
+}
+#service > hr{
+
+    background-color: white;
+    height: 3px;
+    width: 9%;
+}
+
+#service >p{
+
+    margin: auto;
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+    margin-top: 0.8rem;
+}
+
+#service >#ser-img{
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6rem;
+
+}
+#service >#ser-img >div{
+
+    width: 17%;
+    
+}
+
+#service >#ser-img >div>img
+{
+    width: 100%;
+    border-radius: 50%;
+    border: solid 10px #77ba13;
+    margin-bottom: 1rem;
+}
+
+#service >#ser-img >div>h2{
+
+    color: white;
+    margin: auto;
+    text-align: center;
+    
+}
+
+#service >#ser-img >div>p{
+
+    color: white;
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+
+/*------------------------------------------------ Project Gallary-------------------------------------- */
+
+#project{
+
+    padding: 1rem;
+    margin: auto auto 0px auto;
+    text-align: center;
+    background-color: white;
+}
+#project >h1{
+
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+#project >hr{
+
+    background-color: #6aa80f;
+    height: 3px;
+    width: 5%;
+}
+
+#project>p
+{
+    color: rgb(179, 178, 178);
+    font-size: 1.3rem;
+}
+
+#project >button{
+
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    padding: 12px 26px;
+    border: none;
+    background-color: #77ba13;
+    border-radius: 5px;
+    color: aliceblue;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+#project>#g-1
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+#project>#g-1>img
+{
+    width: 30%;
+    margin: 15px;
+}
+
+#project>#g-2
+{
+    display: flex;
+    justify-content: space-around;
+}
+#project>#g-2>img
+{
+    width: 30%;
+    margin: 15px;
+}
+
+#project>#g-3
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+#project>#g-3>img
+{
+    width: 30%;
+    margin: 15px;
+}
+
+
+/* -----------------------------------testimonials--------------------------------- */
+#testimonial
+{
+    background-color: #77ba13;
+    margin: auto;
+    padding-top: 3rem;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+#testimonial>hr{
+
+    width: 5%;
+    height: 2px;
+    background-color: aliceblue;
+}
+#testimonial>h1
+{
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 0px;
+    
+    
+}
+#testimonial>p
+{
+
+    margin: auto;
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+    margin-top: 5rem;
+    line-height: 35px;
+
+}
+
+
+/* ----------------------------------------Contact US---------------------------------- */
+
+
+#cont
+{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgb(237, 234, 234);
+    margin: auto;
+    text-align: center;
+}
+#cont>h1{
+
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+#cont>hr{
+    width: 5%;
+    height: 2px;
+    background-color:#77ba13;
+}
+
+
+#cont>p
+{
+    margin: auto;
+    text-align: center;
+    font-size: 1.3rem;
+    color: rgb(131, 130, 130);
+    margin-top: 1rem;
+    line-height: 35px;
+}
+
+#cont>#cont-info
+{
+    display: flex;
+    justify-content:center ;
+}
+#cont>#cont-info>.cont-item
+{
+   margin: 5rem 60px 10px 60px;
+}
+#cont>#cont-info>.cont-item>h3{
+
+    margin-bottom: 0.5rem;
+    
+}
+#cont>#cont-info>.cont-item>hr
+{
+    width: 30%;
+    height: 1.5px;
+    background-color:rgb(193, 191, 191);
+    margin-bottom: 1.5rem;
+
+}
+
+#cont>#cont-info>.cont-item>p
+{
+
+    color: rgb(111, 110, 110);
+    font-size: 1.1rem;
+    margin-top: 7px;
+    margin-bottom: 2px;
+}
+
+#form
+{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+#form>h2{
+
+     font-size: 1.2rem;
+     font-weight: 550;
+     margin-top: 1rem;
+
+}
+
+#form>input
+{
+    width: 28%;
+    height: 38px;
+    margin: 45px 15px 10px 15px;
+
+    border: rgb(93, 92, 92);
+    padding-left: 10px;
+
+}
+#form>textarea
+{
+    height: 145px;
+    width: 59%;
+    margin-top: 15px;
+    border: rgb(83, 83, 83);
+    padding-left: 10px;
+}
+#form>button
+{
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    padding: 17px 26px;
+    border: none;
+    background-color: #77ba13;
+    border-radius: 3px;
+    color: aliceblue;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+/* -------------------------------------------------Footer----------------------------------------------- */
+
+
+footer
+{
+    background-color: rgb(52, 51, 51);
+    margin: auto;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-bottom: 0px;
+}
+footer>i{
+
+    color: #6aa80f;
+    margin: 1rem 0.8rem auto auto;
+   
+   
+}
+footer>.fa-brands
+{
+    width: 22px;
+    padding: 0.8rem 0.8rem;
+    font-size: 1.5rem;
+    background-color: rgba(151, 149, 149, 0.216);
+    border-radius: 60%;
+    
+}
+
+footer>p{
+
+    color: gray;
+    word-spacing: 4px;
+}
